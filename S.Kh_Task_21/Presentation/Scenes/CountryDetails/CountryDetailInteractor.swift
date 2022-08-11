@@ -26,6 +26,5 @@ extension CountryDetailInteractor: CountryDetailInteractorProtocol {
     
     func getCountry(request: CountryDetail.InfoData) {
         presenter?.presentCountryDetails(response: request)
-        print(request)
     }
 }
